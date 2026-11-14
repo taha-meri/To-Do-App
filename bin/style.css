@@ -1,0 +1,84 @@
+.root {
+    -fx-padding: 10px;
+    -fx-background-color: #0F172A;
+}
+
+* {
+    -fx-font-family: 'Arial';
+}
+
+.label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-fill: #F8FAFC;
+    -fx-max-width: Infinity;
+}
+
+.text-field {
+    -fx-background-color: #1E293B;
+    -fx-text-fill: #F8FAFC;
+    -fx-prompt-text-fill: #64748B;
+    -fx-background-radius: 4px;
+    -fx-padding: 10px;
+}
+
+#addTask {
+    -fx-background-color: #38BDF8;
+    -fx-text-fill: black;
+    -fx-background-radius: 4px;
+    -fx-max-width: Infinity;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 3);
+
+}
+
+#delete {
+    -fx-background-color: #EF4444;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-background-radius: 4px;
+    -fx-padding: 5px 10px;
+     -fx-alignment: right;
+         -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 3);
+
+}
+
+#taskListe {
+    -fx-background-color: #1E293B;
+    -fx-background-radius: 4px;
+    -fx-pref-height: 600px;
+}
+
+#taskListe .list-cell {
+    -fx-background-color: #1E293B;
+    -fx-text-fill: #F8FAFC;
+    -fx-padding: 8px;
+}
+
+#taskListe .list-cell:filled:selected {
+    -fx-background-color: #334155;
+}
+
+.check-box .text {
+    -fx-fill: #F8FAFC;
+    -fx-font-size: 20px;
+}
+
+.check-box {
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.check-box > .box {
+     -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #9e9e9e;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-padding: 1px;
+}
